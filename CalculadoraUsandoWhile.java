@@ -11,8 +11,8 @@ public class CalculadoraUsandoWhile
     * Constructor for objects of class CalculadoraUsandoWhile
     */
    public void multiplosDeCinco(){
-       int index = 10;
-       while (index <= 95){
+       int index = 15;
+       while (index <= 90){
            System.out.println(index);
            index = index + 5;
        }
