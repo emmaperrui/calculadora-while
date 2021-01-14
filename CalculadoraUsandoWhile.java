@@ -47,4 +47,20 @@ public class CalculadoraUsandoWhile
         return resultado;
 
     }
+
+    public boolean esPrimo(int n){
+        boolean primo = true;
+        if (n < 0){
+            primo = false;
+        }else if (n > 2){    
+            int contador = 2;
+            while (contador < n && primo){
+                if (n % contador == 0){
+                    primo = false;
+                }
+                contador++;
+            }
+        }
+        return primo;
+    }
 }
